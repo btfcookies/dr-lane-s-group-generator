@@ -48,3 +48,5 @@ function generateGroups() {
         results.appendChild(list);
     });
 }
+
+document.getElementById("generate-btn").addEventListener("click", generateGroups);
