@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Lane's Group Decider of Destiny</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dr. Lane's Group Decider of Destiny</h1>
+
+    <label for="name-input">Enter names (one per line or separated by commas):</label>
+    <br>
+    <textarea id="name-input" rows="10" cols="40"></textarea>
+    <br>
+
+    <label for="group-size">People per group:</label>
+    <input type="number" id="group-size" min="1" value="2">
+    <br>
+
+    <button onclick="generateGroups()">Generate groups</button>
+
+    <p id="message"></p>
+    <div id="results"></div>
+</body>
+</html>
